@@ -20,6 +20,12 @@ var_dump($product);
     <title>Document</title>
 </head>
 <body>
-    
+    <ul>
+        <li><?php echo $product->getImage() ?></li>
+        <li><?php echo $product->getTitle() ?></li>
+        <li><?php echo $product->getPrice() ?></li>
+        <li><?php echo $product->getWeight() ?></li>
+        <li><?php echo $product->getIngredients() ?></li>
+    </ul>
 </body>
 </html>
