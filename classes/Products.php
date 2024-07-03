@@ -1,7 +1,7 @@
 <?php 
 
 require_once __DIR__ . "/Food.php";
-require_once __DIR__ . "/Accesories.php";
+require_once __DIR__ . "/Accessories.php";
 require_once __DIR__ . "/Toys.php";
 require_once __DIR__ . "/Category.php";
 
